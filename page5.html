@@ -1,83 +1,133 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-<title>work10 html layout</title>
-<meta charset="utf-8">
-<style>
-*{
-        box-sizing:border-box
-        padding:0;
-        margin:0;
-}
-.container{
-        width:1024px;
-        margin:0 auto;
-}
-
-header{
-        background-image:url(images/english.jpg);
-        height:256px;
-}
-nav{
-        background-color:#FFFFB5C2;
-        flex:1;
-}
-article{
-        background-color:#FFCCFF;
-        padding:10px;
-        flex:3;
-}
-footer{
-        background-color:#D7EFEF;
-        padding:25px;
-        text-align:center;
-        color:#5B506C;
-}
-section{
-        display:flex;
-}
-a:link{
-         color:#D4EEF1;
-         text-decoration:none;
-         background-color:#FEFFDA;
-         display:block;
-         width:100%;
-         padding:10px;
-}
-a:visited{
-         color:pink;
-}
-a:hover{
-         color:B8E2F2;
-         background-color:#8291E8;
-}
-a:active{
-         color:D4F0F0;
-}
-
-</style>
-
-
-</head>
-<body>
-<div class="container">
-<header></header>
-<section>
-<nav>
-<ul style="list-style-type:none">
-<li><a href="index.html">ไวยากรณ์ Grammar </a></li>
-<li><a href="page2.html"> คำศัพท์ Vocabulary </a><li>
-<li><a href="page3.html"> การอ่าน Reading </a><li>
-<li><a href="page4.html">การพูด Speaking </a><li>
-<li><a href="page5.html">การเขียน Writing </a><li>
-</ul>
-</nav>
-<article>
-<h1>ภาษาอังกฤษ
-</h1>
-<img src="images/some.jpg">
-<p><b>รายวิชาภาษาอังกฤษมุ่งศึกษาและพัฒนาทักษะการใช้ภาษาอังกฤษทั้งด้านการฟัง การพูด การอ่าน และการเขียน รวมถึงการเรียนรู้คำศัพท์ ไวยากรณ์ และการสื่อสารในสถานการณ์ต่าง ๆ เพื่อให้สามารถนำภาษาอังกฤษไปใช้ในชีวิตประจำวัน การศึกษา และการทำงานได้อย่างถูกต้องและเหมาะสม</b></p>
-<br> การเขียน — Writing
+<!DOCTYPE html> 
+<html lang="th"> 
+ 
+<head> 
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+<title>ภาษาอังกฤษ English</title> 
+ 
+<style> 
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+body { 
+    font-family: Arial, "Noto Sans Thai", sans-serif; 
+    background-color: #ffffff; 
+} 
+ 
+.box { 
+    width: 1024px; 
+    margin: 0 auto; 
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+} 
+ 
+header { 
+    background-image: url("images/header.jpg"); 
+    height: 256px; 
+    background-size: cover; 
+    background-position: center; 
+} 
+ 
+nav { 
+    background-color: red; 
+    width: 220px; 
+    min-height: 400px; 
+} 
+ 
+article { 
+    background-color: #f5eed8; 
+    padding: 20px; 
+    flex: 1; 
+    min-height: 400px; 
+} 
+ 
+footer { 
+    background-color: pink; 
+    padding: 25px; 
+    text-align: center; 
+    color: #eee; 
+} 
+ 
+section { 
+    display: flex; 
+} 
+ 
+nav ul { 
+    list-style-type: none; 
+} 
+ 
+a:link, 
+a:visited { 
+    color: green; 
+    text-decoration: none; 
+    background-color: cyan; 
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+} 
+ 
+a:hover { 
+    color: yellow; 
+    text-decoration: none; 
+    background-color: violet; 
+} 
+ 
+a:active { 
+    color: blue; 
+    background-color: transparent; 
+} 
+ 
+article img { 
+    width: 250px; 
+    border-radius: 50%; 
+    display: block; 
+    margin: 20px auto; 
+} 
+ 
+article p { 
+    line-height: 1.8; 
+    margin-bottom: 15px; 
+} 
+ 
+h1 { 
+    margin-bottom: 15px; 
+} 
+</style> 
+</head> 
+ 
+<body> 
+ 
+<div class="box"> 
+ 
+<header></header> 
+ 
+<section> 
+ 
+<nav> 
+<ul> 
+ 
+<li><a href="index.html">ไวยากรณ์ Grammar</a></li> 
+<li><a href="p2.html">คำศัพท์ Vocabulary</a></li> 
+<li><a href="p3.html">การอ่าน Reading</a></li> 
+<li><a href="p4.html">การพูด Speaking</a></li> 
+<li><a href="p5.html">การเขียน Writing</a></li> 
+ 
+</ul> 
+</nav> 
+ 
+<article> 
+ 
+<h1>การเขียน Writing</h1> 
+ 
+<img src="images/p5.jpg" alt="การเขียน Writing"> 
+ 
+<p> 
+รายวิชาภาษาอังกฤษมุ่งศึกษาและพัฒนาทักษะการใช้ภาษาอังกฤษทั้งด้านการฟัง การพูด การอ่าน และการเขียน รวมถึงการเรียนรู้คำศัพท์ ไวยากรณ์ และการสื่อสารในสถานการณ์ต่าง ๆ เพื่อให้สามารถนำภาษาอังกฤษไปใช้ในชีวิตประจำวัน การศึกษา และการทำงานได้อย่างถูกต้องและเหมาะสม</b></p>
+<br>  การเขียน — Writing
 ฝึกเขียนประโยค ย่อหน้า และข้อความภาษาอังกฤษอย่างถูกต้อง
 ตัวอย่าง:
 My favorite subject is English because I enjoy learning new words and communicating with other people.
@@ -88,13 +138,19 @@ My favorite subject is English because I enjoy learning new words and communicat
 ตรวจคำผิด → เช็กการสะกดและไวยากรณ์
 
 
-
-
-</article>
-</section>
-<footer>
-<p>จัดทำโดยนายพงษ์พิมาน อัครชีวินชั้นม.6/3 เลขที่ 17 <br>โรงเรียนรัตนราษฎร์บำรุง</p>
-</footer>
-</div>
-</body>
+ 
+</article> 
+ 
+</section> 
+ 
+<footer> 
+<p> 
+จัดทำโดยนายพงษ์พิมาน อัครชีวิน เลขที่ 17<br> 
+โรงเรียนรัตนราษฎร์บำรุง 
+</p> 
+</footer> 
+ 
+</div> 
+ 
+</body> 
 </html>
